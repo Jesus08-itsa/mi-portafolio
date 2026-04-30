@@ -52,7 +52,7 @@ export function Header() {
       <nav className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
         <Link
           href="/"
-          className="text-lg font-medium tracking-tight text-foreground hover:text-[#7C3AED] transition-colors"
+          className="text-lg font-medium tracking-tight text-foreground hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#00A8FF] hover:to-[#7C3AED] transition-colors"
         >
           JT
         </Link>
@@ -61,7 +61,7 @@ export function Header() {
             <li key={item.href}>
               <Link
                 href={item.href}
-                className="text-sm text-muted-foreground hover:text-[#7C3AED] transition-colors"
+                className="text-sm text-muted-foreground hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#00A8FF] hover:to-[#7C3AED] transition-colors"
               >
                 {item.label}
               </Link>
@@ -72,7 +72,7 @@ export function Header() {
           {/* Language Toggle */}
           <button
             onClick={toggleLanguage}
-            className="px-3 py-1.5 text-xs font-medium rounded-full border border-border hover:border-[#7C3AED]/50 text-muted-foreground hover:text-[#7C3AED] transition-all"
+            className="px-3 py-1.5 text-xs font-medium rounded-full border border-border hover:border-[#7C3AED]/50 text-muted-foreground hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#00A8FF] hover:to-[#7C3AED] transition-all"
             aria-label="Toggle language"
           >
             {language === "es" ? "EN" : "ES"}
@@ -82,7 +82,7 @@ export function Header() {
           {mounted && (
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-full border border-border hover:border-[#7C3AED]/50 text-muted-foreground hover:text-[#7C3AED] transition-all"
+              className="p-2 rounded-full border border-border hover:border-[#7C3AED]/50 text-muted-foreground hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#00A8FF] hover:to-[#7C3AED] transition-all"
               aria-label="Toggle theme"
             >
               {theme === "dark" ? (

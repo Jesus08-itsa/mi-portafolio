@@ -67,7 +67,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">{link.label}</p>
-                  <p className="text-foreground font-medium group-hover:text-[#7C3AED] transition-colors">
+                  <p className="text-foreground font-medium group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#00A8FF] group-hover:to-[#7C3AED] transition-colors">
                     {link.value}
                   </p>
                 </div>

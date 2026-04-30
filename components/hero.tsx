@@ -50,7 +50,7 @@ export function Hero() {
           </Link>
           <Link
             href="#contact"
-            className="px-8 py-3 rounded-full border border-border text-foreground font-medium hover:border-[#7C3AED]/50 hover:text-[#7C3AED] transition-all hover:scale-105"
+            className="px-8 py-3 rounded-full border border-border text-foreground font-medium hover:border-[#7C3AED]/50 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#00A8FF] hover:to-[#7C3AED] transition-all hover:scale-105"
           >
             {t.hero.contact}
           </Link>

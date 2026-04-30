@@ -40,7 +40,7 @@ export function Skills() {
                 transition={{ type: "spring", stiffness: 300 }}
                 className="group p-6 rounded-xl bg-background border border-border hover:border-[#7C3AED]/30 transition-all glow-accent-hover"
               >
-                <p className="text-foreground font-medium mb-1 group-hover:text-[#7C3AED] transition-colors">
+                <p className="text-foreground font-medium mb-1 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#00A8FF] group-hover:to-[#7C3AED] transition-colors">
                   {skill.name}
                 </p>
                 <p className="text-muted-foreground text-sm">

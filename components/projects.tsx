@@ -44,7 +44,7 @@ export function Projects() {
                 className="group block p-8 rounded-2xl bg-background border border-border hover:border-[#7C3AED]/30 transition-all glow-accent-hover"
               >
                 <div className="flex items-start justify-between gap-4 mb-4">
-                  <h3 className="text-xl md:text-2xl font-medium text-foreground group-hover:text-[#7C3AED] transition-colors">
+                  <h3 className="text-xl md:text-2xl font-medium text-foreground group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#00A8FF] group-hover:to-[#7C3AED] transition-colors">
                     {project.title}
                   </h3>
                   <motion.div
@@ -58,10 +58,10 @@ export function Projects() {
                   {project.description}
                 </p>
                 <div className="mt-6 flex items-center gap-2">
-                  <span className="text-sm text-muted-foreground group-hover:text-[#7C3AED] transition-colors">
+                  <span className="text-sm text-muted-foreground group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#00A8FF] group-hover:to-[#7C3AED] transition-colors">
                     {t.projects.visitSite}
                   </span>
-                  <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-[#7C3AED] transition-colors" />
+                  <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-[#00A8FF] group-hover:to-[#7C3AED] transition-colors" />
                 </div>
               </motion.a>
             </FadeIn>
