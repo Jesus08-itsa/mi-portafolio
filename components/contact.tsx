@@ -21,12 +21,12 @@ export function Contact() {
       href: "https://www.linkedin.com/in/jesus-trocha-389b16206/",
       icon: Linkedin,
     },
-    {
-      label: "Computrabajo",
-      value: t.contact.viewProfile,
-      href: "#",
-      icon: ExternalLink,
-    },
+    // {
+    //   label: "Computrabajo",
+    //   value: t.contact.viewProfile,
+    //   href: "#",
+    //   icon: ExternalLink,
+    // },
   ];
 
   return (
