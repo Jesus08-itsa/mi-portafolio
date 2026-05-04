@@ -47,7 +47,7 @@ export function Contact() {
             {t.contact.subtitle}
           </p>
         </FadeIn>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="flex flex-wrap justify-around gap-2 contacts">
           {contactLinks.map((link, index) => (
             <FadeIn key={link.label} delay={0.2 + index * 0.1}>
               <motion.a
