@@ -31,6 +31,10 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Jesus Trocha" }],
   creator: "Jesus Trocha",
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "es_CO",
